@@ -1,0 +1,67 @@
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create three equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+      height: 150px; /* Should be removed. Only for demonstration */
+      text-align: center;
+      font-size:1em;
+      background-color: rgba(46, 49, 49, 0.6);
+      color: white;
+    
+    }
+    .rowBins{
+      width:100%;
+    }
+    /* Clear floats after the columns */
+    .rowBins:after {
+      content: "";
+      display: table;
+      clear: both;
+      
+    }
+    .column>h2{
+        font-size:1.5em;
+    }
+    .column>img{
+     vertical-align: middle;
+     height: 70px;
+    }
+    @media (max-width:600px){
+        .column>h2{
+        font-size:1em;
+        }
+        .column {
+      float: left;
+      width: 33.33%;
+      padding: 2px;
+      height:100px;
+      text-align: center;
+      font-size:1em;
+    
+       }
+       .column>img{
+     vertical-align: middle;
+     height: 40%;
+     
+    }
+
+    .rowBins{
+      width:100%;
+    }
+    }
+
+    body{
+      background-image: url('../img/garbageBg.jpg');
+      background-size: cover;
+      font-family: ubuntu;
+    }
+    .Top{
+      text-align: center;
+      color: white;
+      background-color: rgba(46, 49, 49, 0.6);
+    }

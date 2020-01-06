@@ -1,0 +1,20 @@
+
+body{
+    background-image: url('../img/parkingbg2.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+  
+}
+#parking-header,#parking-text{
+    color:white;
+   
+}
+
+body{
+    font-family: ubuntu;
+}
+
+.Top{
+    background-color: rgba(46, 49, 49, 0.4);
+}

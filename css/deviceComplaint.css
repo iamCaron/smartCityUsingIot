@@ -1,0 +1,75 @@
+
+.btn{
+    font-size: 18px;
+    color:#fff;
+    padding: 12px 22px;
+    border:2px solid #fff;
+    background-color: black;
+    
+}
+
+
+.formContainer{
+    margin:4% auto;
+    width:40%;
+    text-align: center;
+}
+
+
+ @media(max-width:600px){
+  
+ 
+    .formContainer{
+        margin:4% auto;
+        width:90%;
+        text-align: center;
+    }
+    
+    
+
+    
+ }
+ .btn-send{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+ .btn-send{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .btn-send:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+
+
+
+
+ input {font-size:14pt}
+input, label {vertical-align:bottom}
+.qrcode-text {padding-right:1.7em; margin-right:0}
+.qrcode-text-btn {display:inline-block; background:url(..\/img/qr_icon.svg) 50% 50% no-repeat; height:1em; width:1.7em; margin-left:-1.7em; cursor:pointer}
+.qrcode-text-btn > input[type=file] {position:absolute; overflow:hidden; width:1px; height:1px; opacity:0}
+
+#alert
+{color:red;}
+
+
+body{
+    font-size: 20px;
+
+}

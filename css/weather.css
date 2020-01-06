@@ -1,0 +1,48 @@
+
+.display{
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+  
+  
+}
+
+
+
+
+body{
+    background-image: url('../img/weather.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    font-family:CiscoSans - 200;
+  
+
+}
+.weatherContainer{
+    background:rgba(0,0,0, .6);
+    color:white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:20%;
+    margin-right:20%;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 3px grey;
+    font-size: 1.2rem;
+}
+#Temperature{
+    font-size: 3.5em;
+}
+
+
+body{
+    font-family: ubuntu;
+}
+@media (max-width:600px){
+    .weatherContainer{
+        margin-left:2%;
+        margin-right:2%;
+    }
+
+}
